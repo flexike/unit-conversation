@@ -1,0 +1,136 @@
+body{
+    background: #1C1C1C;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #F4F4F4;
+    width: 550px;
+    height: 700px;
+
+    margin-left: 100px;
+    margin-top: 125px;
+    font-family: 'Inter';
+}
+
+.header{
+    width: 100%;
+    height: 285px;
+    background: #6943FF;
+    font-family: 'Inter';
+
+}
+
+.h2{
+    color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    padding-top: 25px;
+}
+
+.h2-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+   
+    padding-top: 25px;
+    padding-bottom: 5px;
+    
+    text-align: center;
+    color: #5A537B;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+
+    margin-bottom: 20px;
+}
+
+#input-el{
+    position: absolute;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+    margin-left: 225px;
+    margin-top: 10px;
+
+    width: 120px;
+    height: 85px;
+
+    color: #FFFFFF;
+    background-color: #6943FF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#submit-el{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+
+    margin-left: 230px;
+    margin-top: 125px;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+.obj{
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+
+    width: 500px;
+    height: 100px;
+
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
